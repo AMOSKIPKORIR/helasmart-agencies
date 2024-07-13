@@ -1,7 +1,12 @@
 
 
-    
-        
+         body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            text-align: center;
+
+        }
 
         .container {
             max-width: 1200px;
@@ -369,7 +374,7 @@ ul.social_infomision li img {
 .footer {
     border-top: #000 solid 1px;
     font-family: Poppins;
-    background: hsl(240, 37%, 96%);
+    background: #7276a9;
     padding-top: 50px;
 }
 
@@ -483,6 +488,11 @@ ul.social_icon li a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
 }
 
 /* Customer Section */
