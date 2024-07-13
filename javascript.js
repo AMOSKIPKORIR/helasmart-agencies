@@ -57,7 +57,7 @@ closeBtn.addEventListener('click', () => {
 // Function to set a timeout for the next popup
 function setScrollTimeout() {
     clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(displayPopup, 50000); // Display the popup after 3 seconds of scrolling
+    scrollTimeout = setTimeout(displayPopup, 3000); // Display the popup after 3 seconds of scrolling
 }
 
 // Event listener for scroll
