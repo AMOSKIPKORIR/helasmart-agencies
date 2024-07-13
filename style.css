@@ -678,3 +678,20 @@ body {
 /*target marketing*/
 
 /*end of target marketing*/
+.unique-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.unique-video-section {
+    text-align: center; /* Center align content */
+    margin-top: 20px; /* Example margin */
+}
+
+.unique-video {
+    max-width: 100%; /* Ensure video doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
