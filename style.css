@@ -1,4 +1,87 @@
 
+
+    
+        
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+
+        .titlepage h2,
+        .titlepage h1 {
+            font-weight: 700;
+            color: #21e932;
+        }
+
+        .titlepage .pink {
+            color: #e91e63;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        .advantages ul,
+        .titlepage ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .advantages li,
+        .titlepage li {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .advantages li::before,
+        .titlepage li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #e91e63;
+        }
+
+        .activation p,
+        .worldwide p {
+            font-weight: 700;
+        }
+
+        .feature_box figure img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .read_more {
+            display: inline-block;
+            background: #e91e63;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+
+        .read_more:hover {
+            background: #c2185b;
+        }
+
+        .read_more .fa-whatsapp {
+            margin-right: 5px;
+        }
+
+
+
 li {
     margin: 0;
 }
@@ -24,90 +107,6 @@ h3 {
 
 
 
-
-
-.titlepage {
-    background-color: #c5e7de;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-  }
-  .titlepage h2 {
-    font-size: 36px;
-    color: #333;
-  }
-  .titlepage ul {
-    list-style: none;
-    padding: 0;
-  }
-  .titlepage li {
-    margin-bottom: 30px;
-  }
-  .titlepage h3 {
-    font-size: 24px;
-    color: #52d90f;
-    margin-bottom: 10px;
-  }
-  .titlepage p {
-    font-size: 18px;
-    color: #0e0b0b;
-    line-height: 1.8;
-  }
-  .titlepage strong {
-    color: #761313;
-  }
-
-
-
-
-
-
-  .row {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.titlepage {
-    text-align: left;
-}
-
-.titlepage p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-.titlepage ul {
-    list-style-type: none;
-    padding: 0;
-}
-.titlepage ul li {
-    margin-bottom: 5px;
-    font-size: 1.1rem;
-}
-.titlepage ul li:before {
-    content: "🔹 ";
-    color: #ff007f;
-    font-size: 1.2rem;
-    margin-right: 5px;
-}
-.titlepage ul ul {
-    list-style-type: disc;
-    margin-top: 5px;
-    margin-left: 20px;
-}
-.advantages {
-    margin-top: 20px;
-}
-.activation, .worldwide {
-    margin-top: 10px;
-}
-.activation strong {
-    color: #ff007f;
-}
 
 
 
@@ -256,50 +255,6 @@ nav ul li a {
 
 /** feature section **/
 
-.feature {
-    margin-top: 90px;
-    background: #fff;
-}
-
-.feature .titlepage h2 {
-    margin-bottom: 20px;
-}
-
-.feature .feature_box {
-    text-align: center;
-}
-
-.feature .feature_box figure img {
-    width: 100%;
-}
-
-.feature .feature_box .read_more {
-    background: #000;
-    color: #fff;
-    margin-top: 40px;
-}
-
-.feature .feature_box .read_more:hover {
-    background: #da33e2;
-}
-
-.read_more {
-    font-size: 17px;
-    background-color: #fff;
-    color: #000;
-    padding: 13px 0px;
-    width: 100%;
-    max-width: 190px;
-    text-align: center;
-    display: inline-block;
-    transition: ease-in all 0.5s;
-}
-
-.read_more:hover {
-    background: #000;
-    color: #fff;
-    transition: ease-in all 0.5s;
-}
 
 /** customer section **/
 
@@ -414,7 +369,7 @@ ul.social_infomision li img {
 .footer {
     border-top: #000 solid 1px;
     font-family: Poppins;
-    background: #7276a9;
+    background: hsl(240, 37%, 96%);
     padding-top: 50px;
 }
 
@@ -528,11 +483,6 @@ ul.social_icon li a:hover {
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #666;
 }
 
 /* Customer Section */
@@ -715,3 +665,6 @@ body {
 .popup-content button:last-of-type:hover {
     background-color: #27ae60;
 }
+/*target marketing*/
+
+/*end of target marketing*/
